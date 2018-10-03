@@ -1,7 +1,7 @@
 import React from "react";
 
 import Layout from "layouts/main";
-import css from "../styles/variables.scss";
+import css from "styles/variables.scss";
 
 const Home = () => (
   <Layout title="Home">

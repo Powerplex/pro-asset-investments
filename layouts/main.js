@@ -1,7 +1,9 @@
+import propTypes from "prop-types";
+
 import Head from "components/head";
 import Nav from "components/nav";
 
-export default ({ title, children }) => (
+const Layout = ({ title, children }) => (
   <div>
     <Head title={title} />
     <Nav />
@@ -54,3 +56,10 @@ export default ({ title, children }) => (
     `}</style>
   </div>
 );
+
+Layout.propTypes = {
+  children: propTypes.element.isRequired,
+  title: propTypes.string.isRequired
+};
+
+export default Layout;
