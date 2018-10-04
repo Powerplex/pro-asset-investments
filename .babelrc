@@ -6,9 +6,9 @@
       {
         "root": ["./"],
         "alias": {
+          "layouts": "./layouts",
           "components": "./components",
-          "styles": "./styles",
-          "layouts": "./layouts"
+          "styles": "./styles"
         }
       }
     ]

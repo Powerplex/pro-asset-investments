@@ -1,0 +1,26 @@
+@import "styles/variables";
+
+.Box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  box-shadow: 0px 0px 5px 1px #828282;
+
+  /* tmp */
+  width: 100%;
+  margin-bottom: 2rem;
+  &.gold-theme {
+    background-color: $gold;
+  }
+
+  &.lightgold-theme {
+    background-color: $lightgold;
+  }
+
+  &.white-theme {
+    background-color: $white;
+  }
+}

@@ -1,0 +1,20 @@
+@import "styles/variables";
+
+.Dot {
+  --width: 3rem;
+  width: var(--width);
+  height: var(--width);
+  margin-left: calc(50% - var(--width) / 2);
+
+  &.gold-theme {
+    background-color: $white;
+  }
+
+  &.lightgold-theme {
+    background-color: $black;
+  }
+
+  &.white-theme {
+    background-color: $gold;
+  }
+}

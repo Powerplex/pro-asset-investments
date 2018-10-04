@@ -10,12 +10,6 @@ const config = {
       fs: "empty"
     };
 
-    // config.resolve.alias = {
-    //   components: path.resolve("./components"),
-    //   styles: path.resolve("./styles"),
-    //   layouts: path.resolve("./layouts")
-    // };
-
     return config;
   }
 };

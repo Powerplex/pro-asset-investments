@@ -10,51 +10,24 @@ const Layout = ({ title, children }: LayoutProps) => (
   <div>
     <Head title={title} />
     <Nav />
-    {children}
+    <div className="mainContainer">{children}</div>
+
     <style jsx global>{`
-      .hero {
-        width: 100%;
-        color: #333;
-      }
-      .title {
-        margin: 0;
-        width: 100%;
-        padding-top: 80px;
-        line-height: 1.15;
-        font-size: 48px;
-      }
-      .title,
-      .description {
-        text-align: center;
-      }
-      .row {
-        max-width: 880px;
-        margin: 80px auto 40px;
+      .mainContainer {
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
+        border: 2px solid blue;
       }
-      .card {
-        padding: 18px 18px 24px;
-        width: 220px;
-        text-align: left;
-        text-decoration: none;
-        color: #434343;
-        border: 1px solid #9b9b9b;
+      html {
+        font-size: 62.5%;
       }
-      .card:hover {
-        border-color: #067df7;
+
+      body {
+        font-size: 1.4rem;
       }
-      .card h3 {
-        margin: 0;
-        color: #067df7;
-        font-size: 18px;
-      }
-      .card p {
-        margin: 0;
-        padding: 12px 0 0;
-        font-size: 13px;
-        color: #333;
+
+      h1 {
+        font-size: 2.4rem;
       }
     `}</style>
   </div>

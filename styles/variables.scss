@@ -1,8 +1,7 @@
-$color-primary: rgb(208, 150, 26);
-$color-secondary: rgb(245, 230, 157);
+$gold: rgb(208, 150, 26);
+$lightgold: rgb(245, 230, 157);
 $white: white;
 $black: black;
 
-.example {
-  background-color: $color-primary;
-}
+$color-primary: $gold;
+$color-secondary: $lightgold;
